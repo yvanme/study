@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>下拉菜单练习</title>
+    <style>
+        .dropmenu{
+/*            position: relative;
+            display: inline-block;*/
+        }
+        .button{
+            background-color: green;
+            padding: 20px;
+            margin: 20px;
+        }
+        .button:hover .list{
+            display:block;
+        }
+        .list{
+            position: absolute;
+            display: none;
+            min-height: 160px;
+
+        }
+    </style>
+</head>
+<body>
+<div class="dropmenu">
+    <span class="button">按钮</span>
+    <div class="list">
+        <p>菜鸟教程</p>
+        <p>www.runoob.com</p>
+    </div>
+</div>
+</body>
+</html>
