@@ -1,10 +1,15 @@
 /*通用样式*/
-*{ margin: 0;padding: 0 }
-body{ font: 14px/24px 'Microsoft YaHei', '宋体’.'"Helvetica Neue", Helvetica, Arial, sans-serif'' }
-.wp{ width: 960px;margin: 0 auto; }
-.z{ float: left;}
-.y{ float: right;}
-.cl{ clear: both; }
+*{ margin: 0;padding: 0 }/*去掉所有盒子的margin和padding*/
+
+body{
+    font-size:14px;
+    font-family: "Microsoft YaHei", Consolas, Courier, monospace;
+}/*设置body的样式属性*/
+
+.wp{ width: 960px;margin: 0 auto; }/*设置宽为960px，居中显示*/
+.z{ float: left;}/*左浮动*/
+.y{ float: right;}/*右浮动*/
+.cl{ clear: both; }/*清楚浮动*/
 .mr_0{ margin: 0 }
 img{ border: none }
 
